@@ -298,7 +298,6 @@ footer{
 		line-height: 22px;
 		text-align: center;
 		color: #FFFFFF;
-
 	}
 }
 @media all and (min-width: 320px) and (min-height: 480px){
@@ -313,12 +312,18 @@ footer{
 }
 @media all and (min-width: 375px) and (min-height: 812px){
 	header{
-		height: 110vh;
+		height: 100vh;
+	}
+	#arrow1{
+		padding-top: 200%;
 	}
 }
 @media all and (min-width: 414px){
 	header{
 		height: 110vh;
+	}
+	#arrow1{
+		padding-top: 220%;
 	}
 }
 @media all and (min-width: 768px){
@@ -361,10 +366,12 @@ footer{
 
 	.content-title{
 		font-size: 20px;
+		text-align: left;
 	}
 
 	.subtitle{
 		font-size: 14px;
+		text-align: left;
 	}
 	.hide2{
 		display: none;
@@ -375,11 +382,17 @@ footer{
 		justify-content: center;
 		margin: -17vw 15vw;
 		height: 70px;
+	}
+	#arrow1{
+		padding-top: 540%;
 	}	
 }
 @media all and (min-width: 780px) and (min-height: 1322px){
 	.cover{
 		padding-top: 480px;
+	}
+	#arrow1{
+		padding-top: 540%;
 	}
 }
 
@@ -433,7 +446,7 @@ footer{
 		font-weight: bold;
 		font-size: 28px;
 		line-height: 38px;
-		text-align: left;
+		c
 		/*padding-left: 20px;*/
 	}
 
@@ -509,10 +522,8 @@ footer{
 		margin-right: auto;
 		margin-left: auto;
 	}
-
 	.gg{
 		width: 100%;
-	
 	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
@@ -529,5 +540,12 @@ footer{
 
 	#arrow1{
 		padding: 1200% 20px 0px 25px;
+	}
+	.play{
+		margin: -17vw 13vw;
+		height: 70px;
+	}
+	.social{
+		padding: 0 10px;
 	}
 }	
