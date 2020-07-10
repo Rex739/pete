@@ -3,6 +3,18 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+:root {
+  --primary-font: 'Nunito', sans-serif;
+  --nav-font: 'Orbitron', sans-serif;
+  --primary-color: #CCF8FB;
+  --secondary-color: #FFFFFF;
+  --blue-color: #87DFD6;
+  --solid-blue: #01A9B4;
+  --white-color: #fff;
+  --button-text-color: #D8F7F9;
+  --hr-color: #FBFD8A;
+}
+
 body{
 	font-family: 'Nunito', sans-serif;
 	background-color: black;
@@ -14,34 +26,37 @@ footer{
 	align-items: center;
 }
 
+
+
 /*BUTTONS*/
 .custom-btn1{
 	padding: 15px 30px;
 	margin-top: 50px;
-	font-family: Nunito;
+	font-family: var(--primary-font);
 	font-style: normal;
 	font-weight: 800;
 	font-size: 12px;
 	line-height: 16px;
 	border-radius: 0px;
-	color: #D8F7F9;
+	color: var(--button-text-color);
 }
 
 .custom-btn2{
 	padding: 15px 50px;	
 }
+
 @media all and (min-width: 0px){
 	header{
-		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/covermobile.png);
+		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover-mobile.png);
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 	.top-nav{
-		background: #01A9B4;
+		background: var(--solid-blue);
 	}
 	.top-nav li{
 		list-style: none;
-		font-family: Nunito;
+		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: bold;
 		font-size: 16px;
@@ -51,7 +66,7 @@ footer{
 	}
 	.navigation a{
 		text-decoration: none;
-		color: #FFFFFF;
+		color: var(--secondary-color);
 	}
 
 	.wrapper{
@@ -65,13 +80,13 @@ footer{
 		z-index: 3;
 	}
 	.logo{
-		font-family: Orbitron;
+		font-family: var(----nav-font);
 		font-style: normal;
 		font-weight: bold;
 		font-size: 24px;
 		line-height: 32px;
 
-		color: #FFFFFF;
+		color: var(--secondary-color);
 	}
 	.cover{
 		width: 100%;
@@ -80,12 +95,12 @@ footer{
 	}
 
 	.cover-text{
-		font-family: 'Nunito', sans-serif;
+		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: 800;
 		font-size: 20px;
 		line-height: 27px;
-		color: #87DFD6;
+		color: var(--blue-color);
 		padding: 2.5rem;
 		background-image: 
 		url(../images/border2.svg),
@@ -101,7 +116,7 @@ footer{
 	}
 
 	.white{
-		color: white;
+		color: var( --white-color);
 	}
 
 	.cover-content{
@@ -146,13 +161,13 @@ footer{
 	}
 
 	.section-title{
-		font-family: Orbitron;
+		font-family: var(----nav-font);
 		font-style: normal;
 		font-weight: bold;
 		font-size: 32px;
 		line-height: 32px;
 		text-align: right;
-		color: #87DFD6;
+		color: var(--blue-color);
 		padding: 90px 0 50px 0;
 		opacity: 0.34;
 		
@@ -167,49 +182,55 @@ footer{
 	}
 
 	.bk1{
-		box-shadow: 8px 20px 1px 1px #FBFD8A;
+		box-shadow: 8px 20px 1px 1px var(--hr-color);
+		-webkit-box-shadow: 8px 20px 1px 1px var(--hr-color);
+		-moz-box-shadow: 8px 20px 1px 1px var(--hr-color);
 	}
 
 	.bk2{
-		box-shadow: 8px 20px 1px 1px #01A9B4;
+		box-shadow: 8px 20px 1px 1px var(--solid-blue);
+		-webkit-box-shadow: 8px 20px 1px 1px var(--solid-blue);
+		-moz-box-shadow: 8px 20px 1px 1px var(--solid-blue);
 	}
 
 	.bk3{
-		box-shadow: 8px 20px 1px 1px #FFFFFF;
+		box-shadow: 8px 20px 1px 1px var(--secondary-color);
+		-webkit-box-shadow: 8px 20px 1px 1px var(--secondary-color);
+		-moz-box-shadow: 8px 20px 1px 1px var(--secondary-color);
 	}
 
 	.content-title{
-		font-family: Nunito;
+		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: bold;
 		font-size: 28px;
 		line-height: 38px;
 		padding-top: 30px;
-		color: #CCF8FB;
+		color: var(--primary-color);
 		text-align: center;
 
 	}
 
 	.subtitle{
 		margin-top: -20px;
-		font-family: Nunito;
+		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: bold;
 		font-size: 16px;
 		line-height: 22px;
 		text-align: center;
-		color: #FFFFFF;
+		color: var(--secondary-color);
 	}
 
 	.more, .more a{
 		display: flex;
 		justify-content: center;
-		font-family: Nunito;
+		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: 800;
 		font-size: 16px;
 		line-height: 22px;
-		color: #01A9B4;
+		color: var(--solid-blue);
 	}
 
 	.hide{
@@ -237,14 +258,14 @@ footer{
 	}
 
 	#hr{
-		background-color: yellow;
+		background-color: var(--hr-color);
 		height: 2px;
 		margin: -12px 130px 10px;
 	}
 
 
 	#hr1{
-		background-color: yellow;
+		background-color: var(--hr-color);
 		height: 2px;
 		margin: -12px 120px 10px;
 	}
@@ -293,13 +314,13 @@ footer{
 	/*footer*/
 
 	.footer-text{
-		font-family: Nunito;
+		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: bold;
 		font-size: 16px;
 		line-height: 22px;
 		text-align: center;
-		color: #FFFFFF;
+		color: var(--secondary-color);
 	}
 }
 @media all and (min-width: 320px) and (min-height: 480px){
@@ -330,7 +351,7 @@ footer{
 }
 @media all and (min-width: 768px){
 	header{
-		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/covermobile.png);
+		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover-mobile.png);
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 100vh;
@@ -347,7 +368,7 @@ footer{
 	}
 
 	.cover-text{
-		font-family: Nunito;
+		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: 800;
 		font-size: 28px;
@@ -391,7 +412,6 @@ footer{
 	.bk{
 		background-position: 48% 88%;
 	}
-
 	.bk01{
 		background-position: 49% 88%;
 	}	
@@ -407,7 +427,7 @@ footer{
 
 @media all and (min-width: 1024px){
 	header{
-		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover.svg);
+		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover.png);
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 130vh;
@@ -453,7 +473,7 @@ footer{
 	}
 
 	.content-title{
-		font-family: Nunito;
+		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: bold;
 		font-size: 28px;
@@ -463,7 +483,7 @@ footer{
 	}
 
 	.subtitle{
-		font-family: Nunito;
+		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: bold;
 		font-size: 16px;
