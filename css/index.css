@@ -3,7 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body{
 	font-family: 'Nunito', sans-serif;
 	background-color: black;
@@ -14,8 +13,6 @@ footer{
 	display: grid;
 	align-items: center;
 }
-
-
 
 /*BUTTONS*/
 .custom-btn1{
@@ -33,7 +30,6 @@ footer{
 .custom-btn2{
 	padding: 15px 50px;	
 }
-
 @media all and (min-width: 0px){
 	header{
 		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/covermobile.png);
@@ -394,6 +390,10 @@ footer{
 	}
 	.bk{
 		background-position: 48% 88%;
+	}
+
+	.bk01{
+		background-position: 49% 88%;
 	}	
 }
 @media all and (min-width: 768px) and (min-height: 1122px){
@@ -544,6 +544,9 @@ footer{
 
 	.bk{
 		background-position: 97% 88%;
+	}
+	#algn{
+		margin-top: -110px;
 	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
