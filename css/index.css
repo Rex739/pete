@@ -238,7 +238,7 @@ footer{
 		padding: 5px 20px;
 	}
 	.hide2{
-		display: none;
+		display: block;
 	}
 
 	/*contact/socials*/
