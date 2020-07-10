@@ -260,14 +260,14 @@ footer{
 	#hr{
 		background-color: var(--hr-color);
 		height: 2px;
-		margin: -12px 130px 10px;
+		margin: -12px 180px 10px;
 	}
 
 
 	#hr1{
 		background-color: var(--hr-color);
 		height: 2px;
-		margin: -12px 120px 10px;
+		margin: -12px 170px 10px;
 	}
 
 
@@ -567,6 +567,18 @@ footer{
 	}
 	#algn{
 		margin-top: -110px;
+	}
+	#hr{
+		background-color: var(--hr-color);
+		height: 2px;
+		margin: -12px 130px 10px;
+	}
+
+
+	#hr1{
+		background-color: var(--hr-color);
+		height: 2px;
+		margin: -12px 120px 10px;
 	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
