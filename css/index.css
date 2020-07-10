@@ -608,11 +608,4 @@ footer{
 	}
 }
 /*hover effect*/
-.music:hover{
-	animation-name: fadeIn;
-	animation-duration: 2s;
-}
-.gallery:hover{
-	animation-name: fadeIn;
-	animation-duration: 2s;
-}
+
