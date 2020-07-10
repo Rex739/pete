@@ -260,14 +260,14 @@ footer{
 	#hr{
 		background-color: var(--hr-color);
 		height: 2px;
-		margin: -12px 180px 10px;
+		margin: -12px 120px 10px;
 	}
 
 
 	#hr1{
 		background-color: var(--hr-color);
 		height: 2px;
-		margin: -12px 170px 10px;
+		margin: -12px 120px 10px;
 	}
 
 
@@ -348,6 +348,18 @@ footer{
 	#arrow1{
 		padding-top: 220%;
 	}
+	#hr{
+		background-color: var(--hr-color);
+		height: 2px;
+		margin: -12px 155px 10px;
+	}
+
+
+	#hr1{
+		background-color: var(--hr-color);
+		height: 2px;
+		margin: -12px 130px 10px;
+	}
 }
 @media all and (min-width: 768px){
 	header{
@@ -414,6 +426,18 @@ footer{
 	}
 	.bk01{
 		background-position: 49% 88%;
+	}
+	#hr{
+		background-color: var(--hr-color);
+		height: 2px;
+		margin: -12px 300px  10px 0px;
+	}
+
+
+	#hr1{
+		background-color: var(--hr-color);
+		height: 2px;
+		margin: -12px 270px 10px 0px;
 	}	
 }
 @media all and (min-width: 768px) and (min-height: 1122px){
@@ -571,14 +595,14 @@ footer{
 	#hr{
 		background-color: var(--hr-color);
 		height: 2px;
-		margin: -12px 130px 10px;
+		margin-left: 70px;
 	}
 
 
 	#hr1{
 		background-color: var(--hr-color);
 		height: 2px;
-		margin: -12px 120px 10px;
+		margin: 0;
 	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
@@ -606,6 +630,18 @@ footer{
 	.bk01{
 		background-position: 98% 88%;
 	}
+	/*#hr{
+		background-color: var(--hr-color);
+		height: 2px;
+		margin: -12px 280px  10px 0px;
+	}
+
+
+	#hr1{
+		background-color: var(--hr-color);
+		height: 2px;
+		margin: -12px 200px 10px 0px;
+	}*/	
 }
 /*hover effect*/
 
