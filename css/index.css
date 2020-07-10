@@ -451,6 +451,10 @@ footer{
 		margin: -17vw 17vw;
 		height: 70px;
 	}
+
+	.cards{
+		width: 100%;
+	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
 	header{
