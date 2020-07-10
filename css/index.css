@@ -16,7 +16,7 @@
 }
 
 body{
-	font-family: 'Nunito', sans-serif;
+	font-family: var(--primary-font);
 	background-color: black;
 }
 
@@ -80,7 +80,7 @@ footer{
 		z-index: 3;
 	}
 	.logo{
-		font-family: var(----nav-font);
+		font-family: var(--nav-font);
 		font-style: normal;
 		font-weight: bold;
 		font-size: 24px;
@@ -116,7 +116,7 @@ footer{
 	}
 
 	.white{
-		color: var( --white-color);
+		color: var(--white-color);
 	}
 
 	.cover-content{
@@ -630,18 +630,9 @@ footer{
 	.bk01{
 		background-position: 98% 88%;
 	}
-	/*#hr{
-		background-color: var(--hr-color);
-		height: 2px;
-		margin: -12px 280px  10px 0px;
+	.content-title{
+		font-size: 18px;
 	}
-
-
-	#hr1{
-		background-color: var(--hr-color);
-		height: 2px;
-		margin: -12px 200px 10px 0px;
-	}*/	
 }
 /*hover effect*/
 
