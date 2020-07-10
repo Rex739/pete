@@ -15,6 +15,24 @@ footer{
 	align-items: center;
 }
 
+.top-nav{
+	background: #01A9B4;
+}
+.top-nav li{
+	list-style: none;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 38px;
+	padding: 20px;
+	text-align: center;
+}
+.navigation a{
+	text-decoration: none;
+	color: black;
+}
+
 /*BUTTONS*/
 .custom-btn1{
 	padding: 15px 30px;
@@ -34,6 +52,9 @@ footer{
 
 .nav-wrapper{
 	padding: 2% 5%;
+	width: 100%;
+	position: absolute;
+	z-index: 3;
 }
 
 @media all and (min-width: 0px){
@@ -326,9 +347,21 @@ footer{
 	.subtitle{
 		font-size: 14px;
 	}
-
-
-	
+	.hide2{
+		display: none;
+	}
+	.play{
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		margin: -17vw 15vw;
+		height: 70px;
+	}	
+}
+@media all and (min-width: 780px) and (min-height: 1322px){
+	.cover{
+		padding-top: 480px;
+	}
 }
 
 @media all and (min-width: 1024px){
@@ -478,7 +511,4 @@ footer{
 	#arrow1{
 		padding: 1200% 20px 0px 25px;
 	}
-
 }	
-
-
