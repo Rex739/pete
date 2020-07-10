@@ -387,7 +387,7 @@ footer{
 		padding-top: 540%;
 	}	
 }
-@media all and (min-width: 740px) and (min-height: 1322px){
+@media all and (min-width: 720px) and (min-height: 1322px){
 	.cover{
 		padding-top: 480px;
 	}
