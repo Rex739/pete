@@ -575,3 +575,16 @@ footer{
 		background-position: 98% 88%;
 	}
 }	
+/*hover effect*/
+.music:hover{
+	animation-name: fadeIn;
+	animation-duration: 2s;
+}
+.gallery:hover{
+	animation-name: fadeIn;
+	animation-duration: 2s;
+}
+.shows:hover{
+	animation-name: slideInLeft;
+	animation-duration: 1s;
+}
