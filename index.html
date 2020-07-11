@@ -29,11 +29,12 @@
 <body>
 	<!-- HEADER / COVER SECTION -->
 	<header class="wrapper">
-		<div class="nav-wrapper">
+		<div class="nav-wrapper" id="navigation">
 			<div class="collapse navbar-collapse" id="navbarToggleExternalContent">
-				<div class="p-4 nav-bg">
+				<div class="">
 					<h5 class="text-white h4">
 						<ul class="top-nav">
+							<li class="navigation"><a href="">Home</a></li>
 							<li class="navigation"><a href="#music">My Music</a></li>
 							<li class="navigation"><a href="#gallery">Gallery</a></li>
 							<li class="navigation"><a href="#shows">Upcoming Shows</a></li>
@@ -77,10 +78,10 @@
 	<!-- MAIN SECTION STARTS -->
 	<main class="">
 		<!-- MUSIC SECTION -->
-		<section class="music animated bounce" id="music">
-			<h1 class="section-title">my music</h1>
+		<section class="music"id="music">
+			<h1 class="section-title wow slideInRight" data-wow-duration="0.5s" data-wow-delay="1">my music</h1>
 			<div class="row wrapper">
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
 					<img class="img bk1" src="images/music1.svg">
 					<p class="content-title">California Woods</p>
 					<p class="subtitle">(feat. Abel Willock)</p>
@@ -97,7 +98,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
 					<img class="img bk2" src="images/music2.svg">
 					<p class="content-title">You and I</p>
 					<p class="subtitle">You and I</p>
@@ -114,7 +115,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards wow slideInLeft" data-wow-duration="2s" data-wow-delay="0.5s">
 					<img class="img bk3" src="images/music3.svg">
 					<p class="content-title">Midnight Tapes 2</p>
 					<p class="subtitle">Midnight Tapes 2</p>
@@ -131,7 +132,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide show">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide show wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s">
 					<img class="img bk1" src="images/music4.svg">
 					<p class="content-title">Midnight Tapes</p>
 					<p class="subtitle">Midnight Tapes</p>
@@ -148,7 +149,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide show">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide show wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s">
 					<img class="img bk2" src="images/music5.svg">
 					<p class="content-title">Slumdog Billionaire</p>
 					<p class="subtitle">(feat. Jackie Chan)</p>
@@ -165,7 +166,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide show">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide show wow slideInRight" data-wow-duration="2s" data-wow-delay="0.5s">
 					<img class="img bk3" src="images/music6.svg">
 					<p class="content-title">No face No Case</p>
 					<p class="subtitle">Berlin Kid</p>
@@ -246,24 +247,24 @@
 
 		</section>
 		<!-- GALLERY SECTION-->
-		<section class="gallery animated bounce" id="gallery">
-			<h1 class="section-title">gallery</h1>
+		<section class="gallery" id="gallery">
+			<h1 class="section-title wow slideInLeft" data-wow-duration="1s" data-wow-delay="1s">gallery</h1>
 			<div class="row wrapper">
-				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
 					<img class="img gallery-img sizes" src="images/gallery1.svg">
 					<p class="content-title align">Viva la barcelona </p>
 					<p class="subtitle year align">2019<hr id="hr"></p>
 				</div>
 				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
 					<div class="row wrapper">
-						<div class="col-12 col-sm-12 col-md-12 col-lg-12 hide show">
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12 hide show wow flipInX" data-wow-duration="1s" data-wow-delay="0.2s">
 								<img class="img gallery-img video" src="images/gallery2.svg">
 								<a href="#"><img class="play" src="images/play.svg"></a>
 								<p class="content-title">Manchester fiesta </p>
 								<p class="subtitle year">2019<hr id="hr1"></p>
 
 							</div>
-							<div class="col-12 col-sm-12 col-md-12 col-lg-12 hide show">
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12 hide show wow slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
 								<img class="img gallery-img" src="images/gallery3.svg">
 								<p class="content-title">Lagos, Portugal</p>
 								<p class="subtitle year">2020 <hr id="hr1"></p>
@@ -274,14 +275,14 @@
 						  </a>
 						</p>
 						<div class="collapse col-12 col-sm-12" id="collapseExample">
-							<div class="col-12 col-sm-12 col-md-12 col-lg-12">
-								<img class="img gallery-img video" src="images/gallery2.svg">
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12 wow slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+								<img class="img gallery-img video" src="images/gallery2.svg ">
 								<a href="#"><img class="play" src="images/play.svg"></a>
 								<p class="content-title">Manchester fiesta </p>
 								<p class="subtitle year">2019<hr id="hr1"></p>
 
 							</div>
-							<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12 wow slideInRight" data-wow-duration="1s" data-wow-delay="0.2s">
 								<img class="img gallery-img" src="images/gallery3.svg">
 								<p class="content-title">Lagos, Portugal</p>
 								<p class="subtitle year">2020 <hr id="hr1"></p>
@@ -292,20 +293,20 @@
 			</div>
 		</section>
 		<!-- UPCOMING SHOWS -->
-		<section class="shows animated fadeIn" id="shows">
-			<h1 class="section-title">upcoming shows</h1>
-			<div class="">
+		<section class="shows" id="shows">
+			<h1 class="section-title wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.2s">upcoming shows</h1>
+			<div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
 				<img class="img hide2" src="images/shows-mobile.svg">
 				<img class="img hide show" src="images/shows.svg" alt="dd">
 				<p class="content-title" id="date">Coachella Paris</p>
 				<p class="subtitle">December 2020</p>
 				<div class="cover-content bk01" id="algn">
-				<a href="#"><button type="button" class="btn btn-info custom-btn1 custom-btn2">Buy Tickets</button></a>
-			</div>
+				<a href="#"><button type="button" class="btn btn-info custom-btn1 custom-btn2 wow tada" data-wow-duration="1s" data-wow-delay="0.2s">Buy Tickets</button></a>
+				</div>
 			</div>
 		</section>
 		<section class="contact" id="contact">
-			<h1 class="section-title">connect with me</h1>
+			<h1 class="section-title wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.2s">connect with me</h1>
 			<div class="row wrapper	social">
 				<div class="col-6 col-sm-6 col-md-2 col-lg-2 social2">
 					<a href="#"><img class="socials" src="images/spotify.svg" alt="spotify logo"></a>
@@ -328,11 +329,12 @@
 			</div>
 		</section>
 	</main>
+	
+	<!-- MAIN SECTION ENDS -->
+	<!-- FOOTER STARTS  -->
 	<footer class="foot">
 		<p class="footer-text">&copy; Pete 2020 All rights Reserved</p>
 	</footer>
-	<!-- MAIN SECTION ENDS -->
-	<!-- FOOTER STARTS  -->
 	<!-- FOOTER ENDS -->
 	<!-- JAVASCRIPT FILES -->
 	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
@@ -340,4 +342,7 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/wow.js"></script>
+	<script>
+	   new WOW().init();
+    </script>
 </body>
