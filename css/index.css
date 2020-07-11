@@ -87,9 +87,8 @@ footer{
 		font-family: var(--nav-font);
 		font-style: normal;
 		font-weight: bold;
-		font-size: 24px;
+		font-size: 32px;
 		line-height: 32px;
-
 		color: var(--secondary-color);
 	}
 	.cover{
@@ -165,11 +164,11 @@ footer{
 	}
 
 	.section-title{
-		font-family: var(----nav-font);
+		font-family: var(--nav-font);
 		font-style: normal;
 		font-weight: bold;
-		font-size: 32px;
-		line-height: 32px;
+		font-size: 48px;
+		line-height: 48px;
 		text-align: right;
 		color: var(--blue-color);
 		padding: 90px 0 50px 0;
