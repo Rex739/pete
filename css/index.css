@@ -56,12 +56,12 @@ footer{
 	}
 	.top-nav li{
 		list-style: none;
-		font-family: var(--primary-font);
+		font-family: var(--nav-font);
 		font-style: normal;
 		font-weight: bold;
-		font-size: 16px;
+		font-size: 14px;
 		line-height: 38px;
-		padding: 20px;
+		padding: 50px;
 		text-align: center;
 	}
 	.navigation a{
@@ -74,10 +74,14 @@ footer{
 			
 	}
 	.nav-wrapper{
-		padding: 2% 5%;
 		width: 100%;
 		position: absolute;
 		z-index: 3;
+		margin: 0;
+		
+	}
+	.navbar{
+		padding: 2% 5%;
 	}
 	.logo{
 		font-family: var(--nav-font);
