@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -330,6 +332,9 @@ footer{
 	header{
 		height: 140vh;
 	}
+	.play{
+		margin: -25vw 28vw;
+	}
 }
 @media all and (min-width: 375px) and (min-height: 667px){
 	header{
@@ -343,8 +348,11 @@ footer{
 	#arrow1{
 		padding-top: 200%;
 	}
+	.play{
+		margin: -25vw 30vw;
+	}
 }
-@media all and (min-width: 414px){
+@media all and (min-width: 400px){
 	header{
 		height: 110vh;
 	}
@@ -364,7 +372,7 @@ footer{
 		margin: -12px 130px 10px;
 	}
 	.play{
-		margin: -29vw 35vw;
+		margin: -25vw 30vw;
 	}
 }
 @media all and (min-width: 768px){
