@@ -165,7 +165,7 @@ footer{
 	}
 
 	.section-title{
-		font-family: var(----nav-font);
+		font-family: var(--nav-font);
 		font-style: normal;
 		font-weight: bold;
 		font-size: 32px;
