@@ -360,6 +360,9 @@ footer{
 		height: 2px;
 		margin: -12px 130px 10px;
 	}
+	.play{
+		margin: -29vw 35vw;
+	}
 }
 @media all and (min-width: 768px){
 	header{
