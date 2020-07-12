@@ -27,9 +27,6 @@ footer{
 	display: grid;
 	align-items: center;
 }
-
-
-
 /*BUTTONS*/
 .custom-btn1{
 	padding: 15px 30px;
@@ -46,7 +43,6 @@ footer{
 .custom-btn2{
 	padding: 15px 50px;	
 }
-
 @media all and (min-width: 0px){
 	header{
 		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/covermobile.png);
