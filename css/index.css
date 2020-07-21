@@ -627,7 +627,6 @@ footer{
 		margin-left: 70px;
 	}
 
-
 	#hr1{
 		background-color: var(--hr-color);
 		height: 2px;
@@ -636,7 +635,6 @@ footer{
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
 	header{
-		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/covermobile.svg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 100vh;
