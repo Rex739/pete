@@ -48,7 +48,7 @@ footer{
 }
 @media all and (min-width: 0px){
 	header{
-		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/covermobile.png);
+		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/covermobile.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -366,6 +366,9 @@ footer{
 	}
 }
 @media all and (min-width: 400px){
+	header{
+		height: 100vh;
+	}
 	#arrow1{
 		padding-top: 10vw;
 	}
@@ -383,7 +386,7 @@ footer{
 }
 @media all and (min-width: 768px){
 	header{
-		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover.svg);
+		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 80vh;
@@ -500,7 +503,7 @@ footer{
 
 @media all and (min-width: 1024px){
 	header{
-		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover.svg);
+		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		height: 120vh;
