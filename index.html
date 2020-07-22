@@ -27,13 +27,18 @@
 
 </head>
 <body>
+	<!-- lOADER -->
+	<div class="loader">
+		<img src="images/loader.svg">
+		<h1>Loading</h1>
+	</div>
 	<!-- HEADER / COVER SECTION -->
-	<header class="wrapper" id="home">
+	<header class="wrapper"  id="home">
 		<div class="nav-wrapper">
 			<div class="collapse navbar-collapse" id="navbarToggleExternalContent">
 				<div class="">
-					<h5 class="text-white h4">
-						<ul class="top-nav">
+					<h5 class="text-white">
+						<ul class="top-nav wow fadeInDown" data-wow-duration="1s" data-wow-delay="0s">
 							<li class="navigation"><a href="">Home</a></li>
 							<li class="navigation"><a href="#music">My Music</a></li>
 							<li class="navigation"><a href="#gallery">Gallery</a></li>
@@ -43,30 +48,30 @@
 					</h5>
 				</div>
 			</div>
-			<nav class="navbar">
+			<nav class="navbar wrapper">
 				<h1 class="logo">pete <img src="images/logoicon.svg" alt="logo"></h1>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+				<button class="navbar-toggler rm" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
 					aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navicon"><img src="images/navicon.png" id="navicon"></span>
 				</button>
 			</nav>
 		</div>
 		<div class="row wrapper">
-			<div class="col-12 col-sm-12 col-md-12 col-lg-11 cover wrapper animated bounce">
-				<h1 class="cover-text">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-11 cover wrapper">
+				<h1 class="cover-text wow bounce" data-wow-duration="1.8s" data-wow-delay="1s">
 					Hi! My name is <span class="white">Pete</span>. I’m a <span class="white">Musician</span> living in Berlin, Germany. I have been creating music for 7 years. I hope my music speaks to you!
 				</h1>
 				<div class="cover-content bk">
 
-					<a href="#date"><button type="button" class="btn btn-info custom-btn1 wow tada" data-wow-duration="1s" data-wow-delay="1s">Get Concert Dates</button></a>
+					<a href="#date"><button type="button" class="btn btn-info custom-btn1 wow tada" data-wow-duration="1s" data-wow-delay="3ås">Get Concert Dates</button></a>
 				</div>
-				<div class="cover-content wow flash" data-wow-duration="1s" data-wow-delay="1s" id="hidde">
+				<div class="cover-content"id="hidde">
 					<a href="#music"><img class="arrow" id="arrow1" src="images/arrowdown1.svg">
 					<img class="arrow" src="images/arrowdown2.svg"></a>
 				</div>
 				
 			</div>
-			<div class=" col-lg-1 cover-content-desktop hide show2 wow flash" data-wow-duration="1s" data-wow-delay="1s">
+			<div class=" col-lg-1 cover-content-desktop hide show2">
 				<div class="try">
 					<a href="#music"><img class="arrow" id="arrow1" src="images/arrowdown1.svg">
 					<img class="arrow" src="images/arrowdown2.svg"></a>
@@ -76,17 +81,17 @@
 	</header>
 	<!-- HEADER / COVER SECTION ENDS -->
 	<!-- MAIN SECTION STARTS -->
-	<main class="">
+	<main>
 		<!-- MUSIC SECTION -->
 		<section class="music"id="music">
 			<h1 class="section-title wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.2s">my music</h1>
 			<div class="row wrapper">
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
-					<img class="img bk1" src="images/music1.png">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards rm-padding wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.2s">
+					<img class="img bk1" src="images/music1.jpg">
 					<p class="content-title">California Woods</p>
 					<p class="subtitle">(feat. Abel Willock)</p>
-					<div class="row wrapper">
-						<div class="col-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="row wrapper fx">
+						<div class="col-4 col-sm-4 col-md-4 col-lg-4 rm-padding">
 							<a href="#"><img class ="music-logo" src="images/spotify.svg"></a>
 						</div>
 
@@ -98,12 +103,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
-					<img class="img bk2" src="images/music1.png">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards rm-padding wow fadeInUp" data-wow-duration="0.6s" data-wow-delay="0.4s">
+					<img class="img bk2" src="images/music2.jpg">
 					<p class="content-title">You and I</p>
 					<p class="subtitle">You and I</p>
-					<div class="row wrapper">
-						<div class="col-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="row wrapper fx">
+						<div class="col-4 col-sm-4 col-md-4 col-lg-4 rm-padding">
 							<a href=""><img class ="music-logo" src="images/spotify.svg"></a>
 						</div>
 
@@ -115,12 +120,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
-					<img class="img bk3" src="images/music1.png">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards rm-padding wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.6s">
+					<img class="img bk3" src="images/music3.jpg">
 					<p class="content-title">Midnight Tapes 2</p>
 					<p class="subtitle">Midnight Tapes 2</p>
-					<div class="row wrapper">
-						<div class="col-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="row wrapper fx">
+						<div class="col-4 col-sm-4 col-md-4 col-lg-4 rm-padding">
 							<a href=""><img class ="music-logo" src="images/spotify.svg"></a>
 						</div>
 
@@ -132,13 +137,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide show wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
-					<img class="img bk1" src="images/music1.png">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide show rm-padding wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.2s">
+					<img class="img bk1" src="images/music4.jpg">
 					<p class="content-title">Midnight Tapes</p>
 					<p class="subtitle">Midnight Tapes</p>
-					<div class="row wrapper">
-						<div class="col-4 col-sm-4 col-md-4 col-lg-4">
-							<a href=""><img class ="music-logo" src="images/spotify.svg"></a>
+					<div class="row wrapper fx">
+						<div class="col-4 col-sm-4 col-md-4 col-lg-4 rm-padding">
+							<a href=""><img class ="music-logo rm-padding" src="images/spotify.svg"></a>
 						</div>
 
 						<div class="col-4 col-sm-4 col-md-4 col-lg-4">
@@ -149,12 +154,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide show wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
-					<img class="img bk2" src="images/music1.png">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide rm-padding show wow fadeInDown" data-wow-duration="0.6s" data-wow-delay="0.4s">
+					<img class="img bk2" src="images/music5.jpg">
 					<p class="content-title">Slumdog Billionaire</p>
 					<p class="subtitle">(feat. Jackie Chan)</p>
-					<div class="row wrapper">
-						<div class="col-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="row wrapper fx">
+						<div class="col-4 col-sm-4 col-md-4 col-lg-4 rm-padding">
 							<a href=""><img class ="music-logo" src="images/spotify.svg"></a>
 						</div>
 
@@ -166,12 +171,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide show wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
-					<img class="img bk3" src="images/music1.png">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards hide show rm-padding wow fadeInRight" data-wow-duration="0.7s" data-wow-delay="0.6s">
+					<img class="img bk3" src="images/music6.jpg">
 					<p class="content-title">No face No Case</p>
 					<p class="subtitle">Berlin Kid</p>
-					<div class="row wrapper">
-						<div class="col-4 col-sm-4 col-md-4 col-lg-4">
+					<div class="row wrapper fx">
+						<div class="col-4 col-sm-4 col-md-4 col-lg-4 rm-padding">
 							<a href=""><img class ="music-logo" src="images/spotify.svg"></a>
 						</div>
 
@@ -190,13 +195,13 @@
 				    Expand <img src="images/vector.svg">
 				  </a>
 				</p>
-				<div class="collapse col-12 col-sm-12" id="collapseExample">
-				  	<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
-						<img class="img bk1" src="images/music1.png">
+				<div class="collapse col-12 col-sm-12 rm-padding" id="collapseExample">
+				  	<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards rm-padding wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">
+						<img class="img bk1" src="images/music4.jpg">
 						<p class="content-title">Midnight Tapes</p>
 						<p class="subtitle">Midnight Tapes</p>
-						<div class="row wrapper">
-							<div class="col-4 col-sm-4 col-md-4 col-lg-4">
+						<div class="row wrapper fx">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-4 rm-padding">
 							<a href=""><img class ="music-logo" src="images/spotify.svg"></a>
 							</div>
 
@@ -208,12 +213,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
-						<img class="img bk2" src="images/music1.png">
+					<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards rm-padding wow fadeInDown"data-wow-duration="0.5s" data-wow-delay="0.5s">
+						<img class="img bk2" src="images/music5.jpg">
 						<p class="content-title">Slumdog Billionaire</p>
 						<p class="subtitle">(feat. Jackie Chan)</p>
-						<div class="row wrapper">
-							<div class="col-4 col-sm-4 col-md-4 col-lg-4">
+						<div class="row wrapper fx">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-4 rm-padding">
 							<a href=""><img class ="music-logo" src="images/spotify.svg"></a>
 							</div>
 
@@ -225,12 +230,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
-						<img class="img bk3" src="images/music1.png">
+					<div class="col-12 col-sm-12 col-md-4 col-lg-4 cards rm-padding wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.5s">
+						<img class="img bk3" src="images/music6.jpg">
 						<p class="content-title">No face No Case</p>
 						<p class="subtitle">Berlin Kid</p>
-						<div class="row wrapper">
-							<div class="col-4 col-sm-4 col-md-4 col-lg-4">
+						<div class="row wrapper fx">
+							<div class="col-4 col-sm-4 col-md-4 col-lg-4 rm-padding">
 							<a href=""><img class ="music-logo" src="images/spotify.svg"></a>
 							</div>
 
@@ -250,42 +255,45 @@
 		<section class="gallery" id="gallery">
 			<h1 class="section-title wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">gallery</h1>
 			<div class="row wrapper">
-				<div class="col-12 col-sm-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-					<img class="img gallery-img sizes" src="images/gallery1.png">
-					<p class="content-title align">Viva la barcelona </p>
-					<p class="subtitle year align">2019<hr id="hr"></p>
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 rm-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+					<img class="img gallery-img sizes" src="images/gallery1.jpg">
+					<p class="content-title align wrapper">Viva la barcelona </p>
+					<p class="subtitle year align"><i>2019</i></p>
+					<div class="border-bottom specs"></div>
 				</div>
-				<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 rm-padding">
 					<div class="row wrapper">
-						<div class="col-12 col-sm-12 col-md-12 col-lg-12 hide show wow flipInX" data-wow-duration="0.5s" data-wow-delay="0.2s">
-								<img class="img gallery-img video" src="images/gallery2.png">
-								<a href="#"><img class="play" src="images/play.svg"></a>
-								<p class="content-title">Manchester fiesta </p>
-								<p class="subtitle year">2019<hr id="hr1"></p>
-
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12 hide show pl-5 wow flipInX" data-wow-duration="0.5s" data-wow-delay="0.2s">
+								<video  controls="" poster="images/gallery2.svg" class="img gallery-img video"><source src="vid/dusk2.mp4" type="video/mp4"></video>
+									<!-- input your video in src -->
+								<p class="content-title wrapper">Manchester fiesta</p>
+								<p class="subtitle year wrapper"><i>2019</i></p>
+								<div class="border-bottom"></div>
 							</div>
-							<div class="col-12 col-sm-12 col-md-12 col-lg-12 hide show wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-								<img class="img gallery-img" src="images/gallery2.png">
-								<p class="content-title">Lagos, Portugal</p>
-								<p class="subtitle year">2020 <hr id="hr1"></p>
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12 hide show pl-5 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+								<img class="img gallery-img" src="images/gallery3.jpg">
+								<p class="content-title wrapper">Lagos, Portugal</p>
+								<p class="subtitle year wrapper"><i>2020</i></p>
+								<div class="border-bottom"></div>
 							</div>
 						<p class="col-12 more">
 						  <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
 						    Expand <img src="images/vector.svg">
 						  </a>
 						</p>
-						<div class="collapse col-12 col-sm-12" id="collapseExample">
-							<div class="col-12 col-sm-12 col-md-12 col-lg-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-								<img class="img gallery-img video" src="images/gallery2.png ">
-								<a href="#"><img class="play" src="images/play.svg"></a>
+						<div class="collapse col-12 col-sm-12 rm-padding" id="collapseExample">
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12 rm-padding wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+								<video  controls="" poster="images/gallery2.svg" class="img gallery-img video"><source src="vid/dusk2.mp4" type="video/mp4"></video>
+									<!-- input your video in src -->
 								<p class="content-title">Manchester fiesta </p>
-								<p class="subtitle year">2019<hr id="hr1"></p>
-
+								<p class="subtitle year"><i>2019</i></p>
+								<div class="border-bottom"></div>
 							</div>
-							<div class="col-12 col-sm-12 col-md-12 col-lg-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-								<img class="img gallery-img" src="images/gallery2.png">
+							<div class="col-12 col-sm-12 col-md-12 col-lg-12 rm-padding wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+								<img class="img gallery-img" src="images/gallery3.jpg">
 								<p class="content-title">Lagos, Portugal</p>
-								<p class="subtitle year">2020 <hr id="hr1"></p>
+								<p class="subtitle year"><i>2020</i></p>
+								<div class="border-bottom"></div>
 							</div>
 						</div>
 					</div>
@@ -296,10 +304,10 @@
 		<section class="shows" id="shows">
 			<h1 class="section-title wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">upcoming shows</h1>
 			<div class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-				<img class="img hide2" src="images/shows-mobile.png">
-				<img class="img hide show" src="images/shows.png" alt="dd">
+				<img class="img hide2" src="images/shows-mobile.jpg">
+				<img class="img hide show" src="images/shows.jpg" alt="dd">
 				<p class="content-title" id="date">Coachella Paris</p>
-				<p class="subtitle">December 2020</p>
+				<p class="subtitle year"><i>December 2020</i></p>
 				<div class="cover-content bk01" id="algn">
 				<a href="#"><button type="button" class="btn btn-info custom-btn1 custom-btn2 wow tada" data-wow-duration="1s" data-wow-delay="0.2s">Buy Tickets</button></a>
 				</div>
@@ -329,7 +337,6 @@
 			</div>
 		</section>
 	</main>
-	
 	<!-- MAIN SECTION ENDS -->
 	<!-- FOOTER STARTS  -->
 	<footer class="foot">
@@ -342,6 +349,7 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/loader.js"></script>
 	<script>
 	   new WOW().init();
     </script>
