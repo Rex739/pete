@@ -488,6 +488,7 @@ footer{
 @media all and (min-width: 768px) and (min-height: 1122px){
 	header{
 		height: 50vh;
+		background-size: contain;
 	}
 	.cover{
 		padding-top: 20vw;
