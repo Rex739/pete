@@ -366,9 +366,6 @@ footer{
 	}
 }
 @media all and (min-width: 400px){
-	header{
-		height: 110vh;
-	}
 	#arrow1{
 		padding-top: 10vw;
 	}
