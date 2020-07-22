@@ -487,13 +487,13 @@ footer{
 }
 @media all and (min-width: 768px) and (min-height: 1122px){
 	header{
-		height: 50vh;
+		height: 65vh;
 	}
 	.cover{
-		padding-top: 480px;
+		padding-top: 20vw;
 	}
 	#arrow1{
-		padding-top: 540%;
+		padding-top: 1vw;
 	}
 }
 
