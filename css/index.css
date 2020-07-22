@@ -339,7 +339,7 @@ footer{
 }
 @media all and (min-width: 320px) and (min-height: 480px){
 	header{
-		height: 140vh;
+		height: 130vh;
 	}
 	.play{
 		margin: -25vw 28vw;
