@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+html{
+	scroll-behavior: smooth;
+}
 *{
 	margin: 0;
 	padding: 0;
@@ -27,9 +30,6 @@ footer{
 	display: grid;
 	align-items: center;
 }
-
-
-
 /*BUTTONS*/
 .custom-btn1{
 	padding: 15px 30px;
@@ -46,7 +46,6 @@ footer{
 .custom-btn2{
 	padding: 15px 50px;	
 }
-
 @media all and (min-width: 0px){
 	header{
 		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover-mobile.png);
@@ -63,7 +62,7 @@ footer{
 		font-weight: bold;
 		font-size: 14px;
 		line-height: 38px;
-		padding: 50px;
+		padding: 40px;
 		text-align: center;
 	}
 	.navigation a{
@@ -73,6 +72,7 @@ footer{
 
 	.wrapper{
 		margin: 0;
+		padding: 0;
 			
 	}
 	.nav-wrapper{
@@ -83,7 +83,10 @@ footer{
 		
 	}
 	.navbar{
-		padding: 2% 5%;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 10vw;
 	}
 	.logo{
 		font-family: var(--nav-font);
@@ -97,6 +100,9 @@ footer{
 		width: 100%;
 		height: 120vh;
 		padding: 220px 0.5rem;
+	}
+	.rm{
+		padding: 0;
 	}
 
 	.cover-text{
@@ -118,6 +124,7 @@ footer{
 		bottom right,
 		bottom left;
 		background-repeat: no-repeat;
+		margin: 2vw;
 	}
 
 	.white{
@@ -132,21 +139,19 @@ footer{
 
 	.bk{
 		background-image: url(../images/buttonbk.svg);
-		background-position: top left;
 		background-repeat: no-repeat;
 		background-position: 47% 88%;
 	}
 
 	.bk01{
 		background-image: url(../images/buttonbk.svg);
-		background-position: top left;
 		background-repeat: no-repeat;
 		background-position: 46% 88%;
 	}
 
 
 	#arrow1{
-		padding: 100px 20px 0px 25px;
+		padding: 2vw 20px 0px 25px;
 	}
 
 	.arrow{
@@ -158,11 +163,11 @@ footer{
 	/*music section*/
 	.music{
 		height: 100%;
-		padding: 5px 20px;
 	}
 
 	.cards{
 		margin-bottom: 100px;
+		transition: all 0.5s ease;
 	}
 
 	.section-title{
@@ -174,8 +179,7 @@ footer{
 		text-align: right;
 		color: var(--blue-color);
 		padding: 90px 0 50px 0;
-		opacity: 0.34;
-		
+		opacity: 0.34;	
 	}
 
 	.img{
@@ -213,7 +217,6 @@ footer{
 		padding-top: 30px;
 		color: var(--primary-color);
 		text-align: center;
-
 	}
 
 	.subtitle{
@@ -245,7 +248,7 @@ footer{
 	/*gallery section*/
 	.gallery{
 		height: 100%;
-		padding: 5px 20px;
+		/*padding: 5px 20px;*/
 	}
 	.video{
 		position: relative;
@@ -260,31 +263,25 @@ footer{
 	.year{
 		font-style: italic;
 		padding-top: 20px;
+		color: #CCF8FB;
 	}
-
-	#hr{
-		background-color: var(--hr-color);
-		height: 2px;
-		margin: -12px 120px 10px;
-	}
-
-
-	#hr1{
-		background-color: var(--hr-color);
-		height: 2px;
-		margin: -12px 120px 10px;
-	}
-
-
 	.k{
 		display: grid;
 		justify-content: center;
 	}
 
+	.border-bottom{
+		display: flex;
+		text-align: center;
+		background-color: var(--hr-color);
+		height: 3px;
+		width: 10vw;
+		margin: -3vw 0px 20px 40vw;
+	}
 	/*shows section*/
 	.shows{
 		height: 100%;
-		padding: 5px 20px;
+		/*padding: 5px 20px;*/
 	}
 	.hide2{
 		display: block;
@@ -293,7 +290,7 @@ footer{
 	/*contact/socials*/
 	.contact{
 		height: 100%;
-		padding: 5px 20px;
+		/*padding: 5px 20px;*/
 	}
 	.socials{
 		height: 20px;
@@ -315,9 +312,7 @@ footer{
 		justify-content: flex-end;
 		padding: 10px 30px;
 	}
-
 	/*footer*/
-
 	.footer-text{
 		font-family: var(--primary-font);
 		font-style: normal;
@@ -327,18 +322,42 @@ footer{
 		text-align: center;
 		color: var(--secondary-color);
 	}
+	.rm-padding{
+		padding: 0;
+	}
+	main{
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.fx{
+		width: 80%;
+		margin: auto;
+	}
 }
 @media all and (min-width: 320px) and (min-height: 480px){
 	header{
-		height: 140vh;
+		height: 130vh;
 	}
 	.play{
 		margin: -25vw 28vw;
+	}
+	.top-nav li{
+		padding: 20px;
 	}
 }
 @media all and (min-width: 375px) and (min-height: 667px){
 	header{
 		height: 120vh;
+	}
+	.play{
+		margin: -25vw 30vw;
+	}
+	.top-nav li{
+		padding: 30px;
 	}
 }
 @media all and (min-width: 375px) and (min-height: 812px){
@@ -346,51 +365,48 @@ footer{
 		height: 100vh;
 	}
 	#arrow1{
-		padding-top: 200%;
+		padding-top: 10vw;
 	}
 	.play{
 		margin: -25vw 30vw;
+	}
+	.top-nav li{
+		padding: 40px;
 	}
 }
 @media all and (min-width: 400px){
 	header{
-		height: 110vh;
+		height: 100vh;
 	}
 	#arrow1{
-		padding-top: 220%;
-	}
-	#hr{
-		background-color: var(--hr-color);
-		height: 2px;
-		margin: -12px 155px 10px;
-	}
-
-
-	#hr1{
-		background-color: var(--hr-color);
-		height: 2px;
-		margin: -12px 130px 10px;
+		padding-top: 10vw;
 	}
 	.play{
 		margin: -25vw 30vw;
 	}
 }
+@media all and (min-width: 450px) and (min-height: 600px){
+	header{
+		height: 115vh;
+	}
+	#arrow1{
+		padding-top: 0;
+	}
+}
 @media all and (min-width: 768px){
 	header{
-		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover-mobile.png);
+		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover.png);
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 100vh;
+		height: 80vh;
 	}
-
-	.cover{
-		height: 100%;
-		
+	.navbar{
+		padding: 4vw 0 0 0;
 	}
-
 	.cover{
 		width: 100%;
-		padding: 20% 15%;
+		height: 100%;
+		padding: 20vw 5vw 0vw 5vw;
 	}
 
 	.cover-text{
@@ -399,7 +415,9 @@ footer{
 		font-weight: 800;
 		font-size: 28px;
 		line-height: 38px;
-		padding: 2.2rem;
+		padding: 3.2rem;
+		width: 60%;
+		margin: 0;
 	}
 
 	#hide{
@@ -440,30 +458,55 @@ footer{
 		padding-top: 540%;
 	}
 	.bk{
-		background-position: 48% 88%;
+		background-position: 49% 88%;
 	}
 	.bk01{
 		background-position: 49% 88%;
 	}
-	#hr{
+	.border-bottom{
+		display: flex;
+		text-align: center;
 		background-color: var(--hr-color);
-		height: 2px;
-		margin: -12px 300px  10px 0px;
+		height: 3px;
+		width: 4vw;
+		margin: 0.5vw 0vw 3vw;
 	}
-
-
-	#hr1{
-		background-color: var(--hr-color);
-		height: 2px;
-		margin: -12px 270px 10px 0px;
-	}	
-}
-@media all and (min-width: 768px) and (min-height: 1122px){
-	.cover{
-		padding-top: 480px;
+	.cards{
+		padding:0 3vw;
+	}
+	#hidde{
+		display: none;
+	}
+	.show2{
+		display: block;
+	}
+	.try{
+		display: flex;
+		justify-content: center;
 	}
 	#arrow1{
-		padding-top: 540%;
+		padding-top: 0;
+	}
+	.fx{
+		width: 100%;
+		margin: auto;
+	}
+	.sizes{
+		height: 70%;
+		padding: 0 20px;
+	}
+
+}
+@media all and (min-width: 768px) and (min-height: 1122px){
+	header{
+		height: 50vh;
+		background-size: cover;
+	}
+	.cover{
+		padding-top: 20vw;
+	}
+	#arrow1{
+		padding-top: 10vw;
 	}
 }
 
@@ -472,22 +515,27 @@ footer{
 		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover.png);
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 130vh;
+		height: 120vh;
+	}
+	.cover-text{
+		width: 100%;
+		margin: 0;
+
 	}
 	.top-nav li{
 		font-size: 24px;
 	}
 	.cover{
-		padding: 24% 50% 0 13%;
+		padding: 27vw 49vw 0vw 5vw;
+		width: 100%;
 	}
-
 	.try{
 		display: grid;
 		height: 10vh;
 		align-items: flex-end;
 	}
 	#arrow1{
-		padding: 900% 20px 0px 25px;
+		padding: 57vw 20px 0px 25px;
 	}
 
 	.arrow{
@@ -505,11 +553,6 @@ footer{
 	.show{
 		display: block;
 	}
-
-	.show2{
-		display: block;
-	}
-
 	#hidde{
 		display: none;
 	}
@@ -520,46 +563,26 @@ footer{
 		font-weight: bold;
 		font-size: 28px;
 		line-height: 38px;
-		c
-		/*padding-left: 20px;*/
 	}
-
 	.subtitle{
 		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: bold;
 		font-size: 16px;
-		line-height: 22px;
+		line-height: 40px;
 		text-align: left;
-		/*padding-left: 20px;*/
 	}
-
 	.bk01{
-		background-image: url(../images/buttonbk.svg);
-		background-position: top left;
+		background-size: 200px;
 		background-repeat: no-repeat;
 		background-position: 99% 88%;
-	}
-	.cards{
-		padding: 50px;
-	}
-	.music{
-		padding: 5px 100px;
-	}
-	.gallery{
-		padding: 5px 100px;
-	}
-	.contact{
-		padding: 5px 100px;
 	}
 	.gallery-img{
 		padding: 30px 0;
 	}
 	.sizes{
-		height: 70%; 
-	}
-	.shows{
-		padding: 5px 100px;	
+		height: 70%;
+		width: 100%;
 	}
 	.social1{
 		justify-content: center;
@@ -570,18 +593,8 @@ footer{
 	.social{
 		padding: 0 12.5rem;
 	}
-	#hr{
-		margin-left: 70px; 
-		width: 6.5%;	
-	}
-	#hr1{
-		background-color: yellow;
-		height: 2px;
-		margin: 0;
-		width: 6.5%;
-	}
 	.align{
-		padding-left: 70px;
+		padding-left: 4vw;
 	}
 	.play{
 		position: absolute;
@@ -590,7 +603,6 @@ footer{
 		margin: -17vw 17vw;
 		height: 70px;
 	}
-
 	.cards{
 		width: 100%;
 		margin-right: auto;
@@ -605,38 +617,38 @@ footer{
 	}
 
 	.bk{
-		background-position: 97% 88%;
+		background-size: 220px;
+		background-position: 96% 96%;
 	}
 	#algn{
 		margin-top: -110px;
 	}
-	#hr{
-		background-color: var(--hr-color);
-		height: 2px;
-		margin-left: 70px;
+	.border-bottom{
+		height: 3px;
+		width: 3vw;
+		margin: 0vw 0vw 3vw;
 	}
-
-
-	#hr1{
-		background-color: var(--hr-color);
-		height: 2px;
-		margin: 0;
+	.specs{
+		margin: -1vw 0 0 4vw;
+	}
+	.custom-btn1{
+		font-size: 20px;
+		line-height: 27px;
 	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
 	header{
-		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/covermobile.png);
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 100vh;
+		height: 100%;
 	}
 	.cover{
 		width: 100%;
-		padding: 40% 30% 50% 10%;
+		padding: 20vw 40vw 10vw 5vw;
+		
 	}
-
 	#arrow1{
-		padding: 1200% 20px 0px 25px;
+		padding: 50vw 20px 0px 25px;
 	}
 	.play{
 		margin: -17vw 13vw;
@@ -646,11 +658,49 @@ footer{
 		padding: 0 10px;
 	}
 	.bk01{
+		background-size: 200px;
 		background-position: 98% 88%;
 	}
 	.content-title{
 		font-size: 18px;
 	}
+	.border-bottom{
+		width: 4vw;
+	}
+	.bk{
+		background-size: 220px;
+		background-position: 94% 92%;
+	}
 }
 /*hover effect*/
-
+.cover-content-desktop, #hidde{
+	animation: pen 2s ease infinite alternate;
+}
+@keyframes pen{
+	from{
+		transform: translateY(0px);
+	}
+	to {
+		transform: translateY(30px);
+	}
+}
+.loader{
+	font-family: var(--nav-font);
+	background-color: black;
+	z-index: 40;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+}
+.loader-finish{
+	opacity: 0;
+	pointer-events: none;
+}
+.cards:hover{
+	transform:  scale(1.05);
+	transition: all 0.5s ease;
+}
