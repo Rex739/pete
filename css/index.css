@@ -345,6 +345,9 @@ footer{
 	.play{
 		margin: -25vw 28vw;
 	}
+	.top-nav li{
+		padding: 20px;
+	}
 }
 @media all and (min-width: 375px) and (min-height: 667px){
 	header{
@@ -353,7 +356,9 @@ footer{
 	.play{
 		margin: -25vw 30vw;
 	}
-
+	.top-nav li{
+		padding: 30px;
+	}
 }
 @media all and (min-width: 375px) and (min-height: 812px){
 	header{
@@ -364,6 +369,9 @@ footer{
 	}
 	.play{
 		margin: -25vw 30vw;
+	}
+	.top-nav li{
+		padding: 40px;
 	}
 }
 @media all and (min-width: 400px){
