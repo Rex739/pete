@@ -28,7 +28,7 @@ body{
 footer{
 	height: 20vh;
 	display: grid;
-	align-items: center;
+	align-items: flex-end;
 }
 /*BUTTONS*/
 .custom-btn1{
@@ -293,12 +293,14 @@ footer{
 		/*padding: 5px 20px;*/
 	}
 	.socials{
-		height: 20px;
+		height: 25px;
+		margin: 5vw 0;
 	}
 
 	.social{
 		display: flex;
 		justify-content: center;
+		
 	}
 
 	.social1{
