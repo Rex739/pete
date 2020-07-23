@@ -539,6 +539,7 @@ footer{
 	.cover-text{
 		width: 100%;
 		margin: 0;
+		background-size: 100px;
 
 	}
 	.top-nav li{
