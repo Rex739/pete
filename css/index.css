@@ -509,6 +509,10 @@ footer{
 	.specs{
 		margin: -1.5vw 0 0 2.61vw;
 	}
+	.socials{
+		height: 16px;
+		justify-content: center;
+	}
 
 }
 @media all and (min-width: 768px) and (min-height: 1122px){
@@ -713,6 +717,10 @@ footer{
 	#arrow1{
 		margin-top: 55vw;
 	}
+	.socials{
+		height: 25px;
+	}
+
 }
 @media all and (min-width: 1500px){
 	header{
