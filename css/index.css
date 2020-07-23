@@ -317,6 +317,9 @@ footer{
 		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: bold;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
 		font-size: 16px;
 		line-height: 22px;
 		text-align: center;
@@ -544,11 +547,12 @@ footer{
 		align-items: flex-end;
 	}
 	#arrow1{
-		padding: 57vw 20px 0px 25px;
+		padding: 57vw 100px 0px 25px;
 	}
 
 	.arrow{
 		align-items: center;
+		margin-left: 1vw;
 	}
 
 	.more{
@@ -644,6 +648,9 @@ footer{
 		font-size: 20px;
 		line-height: 27px;
 	}
+	.dec{
+		margin-top: -3vw;
+	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
 	header{
@@ -658,6 +665,9 @@ footer{
 	}
 	#arrow1{
 		padding: 50vw 20px 0px 25px;
+	}
+	.arrow{
+		margin-left: -7vw;
 	}
 	.play{
 		margin: -17vw 13vw;
