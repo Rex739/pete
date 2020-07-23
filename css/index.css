@@ -28,7 +28,7 @@ body{
 footer{
 	height: 20vh;
 	display: grid;
-	align-items: center;
+	align-items: flex-end;
 }
 /*BUTTONS*/
 .custom-btn1{
@@ -276,7 +276,8 @@ footer{
 		background-color: var(--hr-color);
 		height: 3px;
 		width: 10vw;
-		margin: -3vw 0px 20px 37.5vw;	}
+		margin: -3vw 0px 20px 37.5vw;
+	}
 	/*shows section*/
 	.shows{
 		height: 100%;
@@ -292,12 +293,14 @@ footer{
 		/*padding: 5px 20px;*/
 	}
 	.socials{
-		height: 20px;
+		height: 25px;
+		margin: 5vw 0;
 	}
 
 	.social{
 		display: flex;
 		justify-content: center;
+
 	}
 
 	.social1{
@@ -316,6 +319,9 @@ footer{
 		font-family: var(--primary-font);
 		font-style: normal;
 		font-weight: bold;
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
 		font-size: 16px;
 		line-height: 22px;
 		text-align: center;
@@ -517,6 +523,11 @@ footer{
 		padding-top: 10vw;
 	}
 }
+@media all and (min-width: 933px) and (min-height: 440px){
+	header{
+		height: 100%;
+	}
+}
 
 @media all and (min-width: 1024px){
 	header{
@@ -528,6 +539,7 @@ footer{
 	.cover-text{
 		width: 100%;
 		margin: 0;
+		background-size: 100px;
 
 	}
 	.top-nav li{
@@ -543,13 +555,13 @@ footer{
 		align-items: flex-end;
 	}
 	#arrow1{
-		padding: 57vw 20px 0px 25px;
+		margin-top: 50vw;
 	}
 
 	.arrow{
 		align-items: center;
+		margin-left: -5vw;
 	}
-
 	.more{
 		display: none;
 	}
@@ -590,7 +602,7 @@ footer{
 	}
 	.sizes{
 		height: 70%;
-		width: 100%;
+		width: 90%;
 	}
 	.social1{
 		justify-content: center;
@@ -643,6 +655,12 @@ footer{
 		font-size: 20px;
 		line-height: 27px;
 	}
+	.dec{
+		margin-top: -3vw;
+	}
+	footer{
+		height: 15vh;
+	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
 	header{
@@ -657,6 +675,9 @@ footer{
 	}
 	#arrow1{
 		padding: 50vw 20px 0px 25px;
+	}
+	.arrow{
+		margin-left: -7vw;
 	}
 	.play{
 		margin: -17vw 13vw;
@@ -680,6 +701,79 @@ footer{
 		background-position: 94% 92%;
 	}
 }
+@media all and (min-width: 1120px) and (min-height: 528px){
+	header{
+		height: 150vh;
+	}
+}
+@media all and (min-width: 1400px) and (min-height: 600px){
+	header{
+		height: 120vh;
+	}
+	#arrow1{
+		margin-top: 55vw;
+	}
+}
+@media all and (min-width: 1500px){
+	header{
+		height: 130vh;
+	}
+	.cover-text{
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.custom-btn1{
+		font-size: 22px;
+	}
+	.content-title{
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.subtitle{
+		font-size: 30px;
+		line-height: 60px;
+	}
+	.music-logo{
+		height: 30px;
+	}
+	.section-title{
+		font-size: 70px;
+	}
+	.dec{
+		margin-top: -1vw;
+	}
+	.specs{
+		margin-top: -0.4vw;
+	}
+	.socials{
+		height: 50px;
+	}
+	.footer-text{
+		font-size: 40px;
+		margin-bottom: 2vw;
+	}
+	#arrow1{
+		padding-top: 0;
+		margin-top: 50vw;
+	}
+	.logo{
+		font-size: 60px;
+	}
+}
+@media all and (min-width: 4000px){
+	#arrow1{
+		margin-top: 30vw;
+	}
+	.arrow{
+		margin-left: -2vw;
+	}
+	.bk{
+		background-position: 98% 99%
+	}
+	.bk01{
+		background-position: 99.2% 88%;
+	}
+}
 /*hover effect*/
 .cover-content-desktop, #hidde{
 	animation: pen 2s ease infinite alternate;
@@ -689,7 +783,7 @@ footer{
 		transform: translateY(0px);
 	}
 	to {
-		transform: translateY(30px);
+		transform: translateY(10px);
 	}
 }
 .loader{
