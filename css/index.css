@@ -705,12 +705,12 @@ footer{
 		height: 150vh;
 	}
 }
-@media all and (min-width: 1300px) and (min-height: 600px){
+@media all and (min-width: 1400px) and (min-height: 600px){
 	header{
 		height: 120vh;
 	}
 	#arrow1{
-		margin-top: 50vw;
+		margin-top: 55vw;
 	}
 }
 @media all and (min-width: 1500px){
@@ -782,7 +782,7 @@ footer{
 		transform: translateY(0px);
 	}
 	to {
-		transform: translateY(30px);
+		transform: translateY(10px);
 	}
 }
 .loader{
