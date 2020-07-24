@@ -42,10 +42,6 @@ footer{
 	border-radius: 0px;
 	color: var(--button-text-color);
 }
-.show-img{
-	object-fit: cover;
-}
-
 .custom-btn2{
 	padding: 15px 50px;	
 }
