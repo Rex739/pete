@@ -500,7 +500,7 @@ footer{
 		padding-top: 20vw;
 	}
 	#arrow1{
-		margin-top: 1vw;
+		margin-top: 0;
 	}
 }
 @media all and (min-width: 933px) and (min-height: 440px){
