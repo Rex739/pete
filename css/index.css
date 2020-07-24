@@ -51,6 +51,7 @@ footer{
 		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/covermobile.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
+		height: 100%;
 	}
 	.top-nav{
 		background: var(--solid-blue);
@@ -99,7 +100,7 @@ footer{
 	.cover{
 		width: 100%;
 		height: 120vh;
-		padding: 220px 0.5rem;
+		padding: 220px 0.5rem 0 0.5rem;
 	}
 	.rm{
 		padding: 0;
@@ -344,56 +345,32 @@ footer{
 	}
 }
 @media all and (min-width: 320px) and (min-height: 480px){
-	header{
-		height: 130vh;
-	}
-	.play{
-		margin: -25vw 28vw;
-	}
 	.top-nav li{
 		padding: 20px;
 	}
 }
 @media all and (min-width: 375px) and (min-height: 667px){
-	header{
-		height: 120vh;
-	}
-	.play{
-		margin: -25vw 30vw;
-	}
 	.top-nav li{
 		padding: 30px;
 	}
+	#arrow1{
+		margin-top: 20vw;
+	}
 }
 @media all and (min-width: 375px) and (min-height: 812px){
-	header{
-		height: 100vh;
-	}
 	#arrow1{
-		padding-top: 10vw;
-	}
-	.play{
-		margin: -25vw 30vw;
+		margin-top: 50vw;
 	}
 	.top-nav li{
 		padding: 40px;
 	}
 }
 @media all and (min-width: 400px){
-	header{
-		height: 100vh;
-	}
 	#arrow1{
 		padding-top: 10vw;
 	}
-	.play{
-		margin: -25vw 30vw;
-	}
 }
 @media all and (min-width: 450px) and (min-height: 600px){
-	header{
-		height: 115vh;
-	}
 	#arrow1{
 		padding-top: 0;
 	}
@@ -403,7 +380,7 @@ footer{
 		background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/cover.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 80vh;
+		height: 100vw;
 	}
 	main{
 		width: 90%;
@@ -463,7 +440,7 @@ footer{
 		height: 70px;
 	}
 	#arrow1{
-		padding-top: 540%;
+		margin-top: 0;
 	}
 	.bk{
 		background-position: 49% 88%;
@@ -493,7 +470,7 @@ footer{
 		justify-content: center;
 	}
 	#arrow1{
-		padding-top: 0;
+		margin-top: 5vw;
 	}
 	.fx{
 		width: 100%;
@@ -580,6 +557,15 @@ footer{
 	#hidde{
 		display: none;
 	}
+	.bk01{
+		background-size: 200px;
+		background-repeat: no-repeat;
+		background-position: 99% 88%;
+	}
+	.bk{
+		background-size: 220px;
+		background-position: 96% 96%;
+	}
 
 	.content-title{
 		font-family: var(--primary-font);
@@ -595,11 +581,6 @@ footer{
 		font-size: 16px;
 		line-height: 40px;
 		text-align: left;
-	}
-	.bk01{
-		background-size: 200px;
-		background-repeat: no-repeat;
-		background-position: 99% 88%;
 	}
 	.gallery-img{
 		padding: 30px 0;
@@ -639,11 +620,6 @@ footer{
 	.cover-content{
 		justify-content: flex-end;
 	}
-
-	.bk{
-		background-size: 220px;
-		background-position: 96% 96%;
-	}
 	#algn{
 		margin-top: -110px;
 	}
@@ -666,6 +642,17 @@ footer{
 		height: 15vh;
 	}
 }
+@media all and (min-width: 1024px) and (min-height: 768px){
+	#arrow1{
+		margin-top: 75vw;
+	}
+	.bk{
+		background-position: 92% 96%;
+	}
+	.bk01{
+		background-position: 98% 88%;
+	}
+}
 @media all and (min-width: 1024px) and (min-height: 1366px){
 	header{
 		background-repeat: no-repeat;
@@ -678,7 +665,7 @@ footer{
 		
 	}
 	#arrow1{
-		padding: 50vw 20px 0px 25px;
+		margin-top: 50vw;
 	}
 	.arrow{
 		margin-left: -7vw;
@@ -707,7 +694,10 @@ footer{
 }
 @media all and (min-width: 1120px) and (min-height: 528px){
 	header{
-		height: 150vh;
+		height: 70vw;
+	}
+	#arrow1{
+		margin-top: 60vw;
 	}
 }
 @media all and (min-width: 1400px) and (min-height: 600px){
@@ -719,6 +709,15 @@ footer{
 	}
 	.socials{
 		height: 25px;
+	}
+	.bk01{
+		background-size: 200px;
+		background-repeat: no-repeat;
+		background-position: 99% 88%;
+	}
+	.bk{
+		background-size: 220px;
+		background-position: 96% 96%;
 	}
 
 }
