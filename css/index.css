@@ -752,7 +752,7 @@ footer{
 		margin-top: -0.4vw;
 	}
 	.socials{
-		height: 50px;
+		height: 30px;
 	}
 	.footer-text{
 		font-size: 40px;
@@ -764,6 +764,9 @@ footer{
 	}
 	.logo{
 		font-size: 60px;
+	}
+	footer{
+		height: 100%;
 	}
 }
 @media all and (min-width: 4000px){
