@@ -766,6 +766,7 @@ footer{
 		font-size: 60px;
 	}
 	footer{
+		margin-top: 100px;
 		height: 100%;
 	}
 }
