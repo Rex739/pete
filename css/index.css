@@ -26,7 +26,7 @@ body{
 }
 
 footer{
-	height: 20vh;
+	height: 25vw;
 	display: grid;
 	align-items: flex-end;
 }
@@ -489,6 +489,9 @@ footer{
 		height: 16px;
 		justify-content: center;
 	}
+	footer{
+		height: 10vw;
+	}
 
 }
 @media all and (min-width: 768px) and (min-height: 1122px){
@@ -637,9 +640,6 @@ footer{
 	.dec{
 		margin-top: -3vw;
 	}
-	footer{
-		height: 15vh;
-	}
 }
 @media all and (min-width: 1024px) and (min-height: 768px){
 	#arrow1{
@@ -650,6 +650,9 @@ footer{
 	}
 	.bk01{
 		background-position: 98% 88%;
+	}
+	footer{
+		height: 10vw;
 	}
 }
 @media all and (min-width: 1024px) and (min-height: 1366px){
